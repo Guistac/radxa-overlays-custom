@@ -7,3 +7,6 @@
 1. `git clone --recurse-submodules https://github.com/radxa-pkg/radxa-overlays.git`
 2. Open in [`devcontainer`](https://code.visualstudio.com/docs/devcontainers/containers)
 3. `make deb`
+
+
+sudo apt install linux-headers-vendor-rk35xx
