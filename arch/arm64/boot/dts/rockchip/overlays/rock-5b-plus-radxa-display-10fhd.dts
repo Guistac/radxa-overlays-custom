@@ -94,6 +94,10 @@
 		reg = <0>;
 		backlight = <&dsi1_backlight>;
 
+		/*STACATO: ROTATE DISPLAY*/
+		video-rotation = <1>;
+		rotation = <90>;
+
 		vdd-supply = <&vcc_lcd_mipi1>;
 		vccio-supply = <&vcc_1v8_s0>;
 		reset-gpios = <&gpio2 RK_PC1 GPIO_ACTIVE_HIGH>;
@@ -197,6 +201,7 @@
 		max-x = <1200>;
 		max-y = <1920>;
 		tp-size = <9271>;
+		phandle = <0x0a>;
 	};
 };
 
